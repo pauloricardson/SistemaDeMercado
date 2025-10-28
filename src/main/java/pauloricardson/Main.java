@@ -38,9 +38,13 @@ public class Main {
         melhorpreco.adicionarCategoria(higienePessoal);
         melhorpreco.adicionarCategoria(higienteDoLar);
 
+        melhorpreco.apresentarCategorias();
+
+        /*
         Mercado bomJesus = new Mercado("Mercado Bom Jesus");
         bomJesus.adicionarCategoria(alimentos);
         bomJesus.adicionarCategoria(higienePessoal);
         bomJesus.adicionarCategoria(higienteDoLar);
+        */
     }
 }

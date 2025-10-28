@@ -62,4 +62,17 @@ public class Mercado {
         System.out.println(itens.get(codigo).getNome() + " foi removido com sucesso!");
         itens.remove(codigo);
     }
+
+    public void apresentarCategorias(){
+        for (int i = 0; i < categorias.size(); i++){
+            System.out.println("Código: " + i + ", Nome da cotegoria: " + categorias.get(i).getNome());
+        }
+    }
+
+    public void apresentarItens(){
+        for (int i = 0; i < itens.size(); i++){
+            System.out.println("Código: " + i + ", Nome do item: " + itens.get(i).getNome() + ", Preço: " + itens.get(i).getPreco());
+        }
+    }
+
 }

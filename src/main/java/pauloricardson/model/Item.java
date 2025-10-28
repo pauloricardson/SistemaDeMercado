@@ -1,5 +1,7 @@
 package pauloricardson.model;
 
+import java.util.ArrayList;
+
 public class Item {
     private int codigo;
     private String nome;
